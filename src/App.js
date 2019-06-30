@@ -1,15 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import img from "./assets/img/image1.jpg";
+
+const image = {
+  maxWidth: "100%"
+};
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={img} className="Background-Image" style={image} alt="logo" />
+        <p>Assalamu Alaykum! Read this line of Quran!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
